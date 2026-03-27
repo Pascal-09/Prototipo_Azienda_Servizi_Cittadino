@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="COM.CS.GestioneProfilo.Interface.HomepageDatoreDiLavoro">
+  <grid id="27dc6" binding="HomepageDatoreDiLavoro" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="30" bottom="10" right="30"/>
+    <constraints>
+      <xy x="20" y="20" width="768" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-4332545"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="4fe7f" binding="SezioneIcone" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4332545"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="cc411" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="icone/DatoreDiLavoroIcona1.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="9a1b3" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="icone/DatoreDiLavoroIcona2.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="c4d09" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="icone/DatoreDiLavoroIcona3.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="488c" binding="SezioneTasti" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4332545"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="593c0" class="javax.swing.JButton" binding="NuovoContrattoButton">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-5245754"/>
+              <foreground color="-16777216"/>
+              <text value="Nuovo contratto"/>
+            </properties>
+          </component>
+          <component id="ea809" class="javax.swing.JButton" binding="InviaComunicazioneButton">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-5245754"/>
+              <foreground color="-16777216"/>
+              <text value="InviaComunicazione"/>
+            </properties>
+          </component>
+          <component id="560d2" class="javax.swing.JButton" binding="TerminazioneContrattoButton">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-5245754"/>
+              <foreground color="-16777216"/>
+              <text value="Terminazione contratto"/>
+            </properties>
+          </component>
+          <component id="e456d" class="javax.swing.JButton" binding="ApprovazioneRichiestaButton">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-5245754"/>
+              <foreground color="-16777216"/>
+              <text value="Approvazione richiesta"/>
+            </properties>
+          </component>
+          <component id="1488" class="javax.swing.JButton" binding="AccreditaStipendioButton">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-5245754"/>
+              <foreground color="-16777216"/>
+              <text value="Accredita stipendio"/>
+            </properties>
+          </component>
+          <component id="ca367" class="javax.swing.JButton" binding="ModificaDatiButton">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-5245754"/>
+              <foreground color="-16777216"/>
+              <text value="Modifica Dati"/>
+            </properties>
+          </component>
+          <component id="b06b2" class="javax.swing.JButton" binding="ModificaPasswordButton">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-5245754"/>
+              <foreground color="-16777216"/>
+              <text value="Modifica Password"/>
+            </properties>
+          </component>
+          <component id="a7803" class="javax.swing.JButton" binding="UscitaButton">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-2926017"/>
+              <foreground color="-1"/>
+              <text value="Uscita"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="f519f" class="javax.swing.JLabel" binding="IconaDatoreDiLavoro">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="icone/DatoreDILavoroIcona.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
